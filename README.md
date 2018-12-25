@@ -29,7 +29,7 @@ Press <kbd>opt</kbd> + <kbd>?</kbd> to toggle the help panel, which will show al
 
 These screenshots demostrate what awesome-hammerspoon is capable of. Learn more about [built-in Spoons](https://github.com/ashfinal/awesome-hammerspoon/wiki/The-built-in-Spoons).
 
-#### Desktop widgets
+#### 桌面工具 Desktop widgets
 
 <details>
 <summary>More details</summary>
@@ -38,7 +38,7 @@ These screenshots demostrate what awesome-hammerspoon is capable of. Learn more 
 
 </details>
 
-#### Window manpulation <kbd>⌥</kbd> + <kbd>R</kbd>
+#### 窗口管理 Window manpulation <kbd>⌥</kbd> + <kbd>R</kbd>
 
 <details>
 <summary>More details</summary>
@@ -47,7 +47,7 @@ These screenshots demostrate what awesome-hammerspoon is capable of. Learn more 
 
 </details>
 
-#### Search something <kbd>⌥</kbd> + <kbd>G</kbd>
+#### 搜索 Search something <kbd>⌥</kbd> + <kbd>G</kbd>
 
 <details>
 <summary>More details</summary>
@@ -72,7 +72,7 @@ hsaria2_secret = "token" -- YOUR OWN SECRET
 
 </details>
 
-## Customization
+## 个性化定制 Customization
 
 <details>
 
@@ -128,9 +128,7 @@ Finally press `cmd + ctrl + shift + r` to reload the configuration.
 <details>
 <summary>More details</summary>
 [awesome-hammerspoon ashfinal](https://github.com/ashfinal/awesome-hammerspoon)
-
-
-[https://github.com/zzamboni/oh-my-hammerspoon](https://github.com/zzamboni/oh-my-hammerspoon)
+[oh-my-hammerspoon zzamboni](https://github.com/zzamboni/oh-my-hammerspoon)
 
 [https://github.com/scottcs/dot_hammerspoon](https://github.com/scottcs/dot_hammerspoon)
 

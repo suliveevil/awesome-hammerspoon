@@ -1,57 +1,119 @@
 [
   {
-    "Command": [],
-    "Constant": [],
-    "Constructor": [],
-    "Deprecated": [],
-    "Field": [],
-    "Function": [],
-    "Method": [
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "desc" : "Display Keybindings registered with bindHotkeys() and Spoons",
+    "Constructor" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "Method" : [
       {
-        "def": "HSKeybindings:hide()",
-        "desc": "Hide the cheatsheet webview",
-        "doc": "Hide the cheatsheet webview\n",
-        "name": "hide",
-        "signature": "HSKeybindings:hide()",
-        "stripped_doc": "",
-        "type": "Method"
+        "name" : "show",
+        "desc" : "Show current application's keybindings in a webview",
+        "stripped_doc" : [
+          "Show current application's keybindings in a webview"
+        ],
+        "doc" : "Show current application's keybindings in a webview",
+        "notes" : [
+
+        ],
+        "signature" : "HSKeybindings:show()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "def" : "HSKeybindings:show()",
+        "parameters" : [
+
+        ]
       },
       {
-        "def": "HSKeybindings:show()",
-        "desc": "Show current application's keybindings in a webview",
-        "doc": "Show current application's keybindings in a webview\n",
-        "name": "show",
-        "signature": "HSKeybindings:show()",
-        "stripped_doc": "",
-        "type": "Method"
+        "name" : "hide",
+        "desc" : "Hide the cheatsheet webview",
+        "stripped_doc" : [
+          "Hide the cheatsheet webview"
+        ],
+        "doc" : "Hide the cheatsheet webview",
+        "notes" : [
+
+        ],
+        "signature" : "HSKeybindings:hide()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "def" : "HSKeybindings:hide()",
+        "parameters" : [
+
+        ]
       }
     ],
-    "Variable": [],
-    "desc": "Display Keybindings registered with bindHotkeys() and Spoons ",
-    "doc": "Display Keybindings registered with bindHotkeys() and Spoons \n\nSpoons need to set the mapping in obj\n\nOriginally based on KSheet.spoon by ashfinal <ashfinal@gmail.com>\n\nDownload: [https://github.com/Hammerspoon/Spoons/raw/master/Spoons/HSKeybindings.spoon.zip](https://github.com/Hammerspoon/Spoons/raw/master/Spoons/HSKeybindings.spoon.zip)",
-    "items": [
+    "Command" : [
+
+    ],
+    "items" : [
       {
-        "def": "HSKeybindings:hide()",
-        "desc": "Hide the cheatsheet webview",
-        "doc": "Hide the cheatsheet webview\n",
-        "name": "hide",
-        "signature": "HSKeybindings:hide()",
-        "stripped_doc": "",
-        "type": "Method"
+        "name" : "hide",
+        "desc" : "Hide the cheatsheet webview",
+        "stripped_doc" : [
+          "Hide the cheatsheet webview"
+        ],
+        "doc" : "Hide the cheatsheet webview",
+        "notes" : [
+
+        ],
+        "signature" : "HSKeybindings:hide()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "def" : "HSKeybindings:hide()",
+        "parameters" : [
+
+        ]
       },
       {
-        "def": "HSKeybindings:show()",
-        "desc": "Show current application's keybindings in a webview",
-        "doc": "Show current application's keybindings in a webview\n",
-        "name": "show",
-        "signature": "HSKeybindings:show()",
-        "stripped_doc": "",
-        "type": "Method"
+        "name" : "show",
+        "desc" : "Show current application's keybindings in a webview",
+        "stripped_doc" : [
+          "Show current application's keybindings in a webview"
+        ],
+        "doc" : "Show current application's keybindings in a webview",
+        "notes" : [
+
+        ],
+        "signature" : "HSKeybindings:show()",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "def" : "HSKeybindings:show()",
+        "parameters" : [
+
+        ]
       }
     ],
-    "name": "HSKeybindings",
-    "stripped_doc": "\nSpoons need to set the mapping in obj\n\nOriginally based on KSheet.spoon by ashfinal <ashfinal@gmail.com>\n\nDownload: [https://github.com/Hammerspoon/Spoons/raw/master/Spoons/HSKeybindings.spoon.zip](https://github.com/Hammerspoon/Spoons/raw/master/Spoons/HSKeybindings.spoon.zip)",
-    "submodules": [],
-    "type": "Module"
+    "doc" : "Display Keybindings registered with bindHotkeys() and Spoons \n\nSpoons need to set the mapping in obj\n\nOriginally based on KSheet.spoon by ashfinal <ashfinal@gmail.com>\n\nDownload: [https:\/\/github.com\/Hammerspoon\/Spoons\/raw\/master\/Spoons\/HSKeybindings.spoon.zip](https:\/\/github.com\/Hammerspoon\/Spoons\/raw\/master\/Spoons\/HSKeybindings.spoon.zip)",
+    "name" : "HSKeybindings"
   }
 ]

@@ -1,35 +1,37 @@
-# awesome-hammerspoon configuration
+# awesome-hammerspoon
 
-awesome-hammerspoon is my configuration for [Hammerspoon](http://www.hammerspoon.org/). 
-Forked from https://github.com/ashfinal/awesome-hammerspoon
-It has highly modal-based, vim-style keybindings, provides some functionality like desktop widgets, window management, application launcher, instant search, aria2 frontend ... etc.
+> awesome-hammerspoon 是我的 [Hammerspoon](http://www.hammerspoon.org/) 的配置文件，也是 [ashfinal的awesome-hammerspoon](https://github.com/ashfinal/awesome-hammerspoon)的一个分支.
+
 
 [TOC]
 
 
-## Get started
+## 安装与更新
 
-1. Install [Hammerspoon](http://www.hammerspoon.org/) first.
+### 安装
+
+1. 安装 [Hammerspoon](http://www.hammerspoon.org/).
 
 2. `git clone https://github.com/suliveevil/awesome-hammerspoon.git ~/.hammerspoon`
 
 3. Reload the configutation.
 
-## Keep update
+### 更新
 
 `cd ~/.hammerspoon && git pull`
 
-## How to use
+## 使用（附截图展示）
 
-Just press <kbd>opt</kbd>, plus <kbd>A</kbd> or <kbd>C</kbd> or <kbd>R</kbd>… to start. If need help, press <kbd>tab</kbd> to toggle the keybindings cheatsheet.
+按下 <kbd>opt</kbd>, 与 <kbd>A</kbd> 或者 <kbd>C</kbd> 或者 <kbd>R</kbd>.
+如果需要帮助, 按下 <kbd>tab</kbd> 浏览 the keybindings cheatsheet.
 
 Press <kbd>opt</kbd> + <kbd>?</kbd> to toggle the help panel, which will show all <kbd>opt</kbd> related keybindings.
 
-### Screenshots
 
-These screenshots demostrate what awesome-hammerspoon is capable of. Learn more about [built-in Spoons](https://github.com/ashfinal/awesome-hammerspoon/wiki/The-built-in-Spoons).
+这些截图描述了 awesome-hammerspoon 能做什么. 
+了解更多 [built-in Spoons](https://github.com/ashfinal/awesome-hammerspoon/wiki/The-built-in-Spoons).
 
-#### 桌面工具 Desktop widgets
+### 桌面插件
 
 <details>
 <summary>More details</summary>
@@ -38,7 +40,8 @@ These screenshots demostrate what awesome-hammerspoon is capable of. Learn more 
 
 </details>
 
-#### 窗口管理 Window manpulation <kbd>⌥</kbd> + <kbd>R</kbd>
+### 窗口管理 
+<kbd>⌥</kbd> + <kbd>R</kbd>
 
 <details>
 <summary>More details</summary>
@@ -47,7 +50,8 @@ These screenshots demostrate what awesome-hammerspoon is capable of. Learn more 
 
 </details>
 
-#### 搜索 Search something <kbd>⌥</kbd> + <kbd>G</kbd>
+### 快速搜索
+<kbd>⌥</kbd> + <kbd>G</kbd>
 
 <details>
 <summary>More details</summary>
@@ -56,19 +60,27 @@ These screenshots demostrate what awesome-hammerspoon is capable of. Learn more 
 
 </details>
 
-#### aria2 Frontend <kbd>⌥</kbd> + <kbd>D</kbd>
+### aria前端
+<kbd>⌥</kbd> + <kbd>D</kbd>
 
 <details>
 <summary>More details</summary>
 
-![hsearch](https://github.com/ashfinal/bindata/raw/master/screenshots/awesome-hammerspoon-aria2.png)
 
-You need to [run aria2 with RPC enabled](https://github.com/ashfinal/awesome-hammerspoon/wiki/Run-aria2-with-rpc-enabled) before using this. Config aria2 host and token in `~/.hammerspoon/private/config.lua`, then you're ready to go.
+使用之前，你需要 [run aria2 with RPC enabled](https://github.com/ashfinal/awesome-hammerspoon/wiki/Run-aria2-with-rpc-enabled).
+
+```bash
+aria2c --enable-rpc
+```
+
+在 `~/.hammerspoon/private/config.lua` 里配置 aria2 host 和 token.
 
 ```lua
 hsaria2_host = "http://localhost:6800/jsonrpc" -- default host
 hsaria2_secret = "token" -- YOUR OWN SECRET
 ```
+
+![hsearch](https://github.com/ashfinal/bindata/raw/master/screenshots/awesome-hammerspoon-aria2.png)
 
 </details>
 
@@ -82,15 +94,15 @@ hsaria2_secret = "token" -- YOUR OWN SECRET
 cp ~/.hammerspoon/config-example.lua ~/.hammerspoon/private/config.lua
 ```
 
-Then modify the file `~/.hammerspoon/private/config.lua`:
+修改配置文件 `~/.hammerspoon/private/config.lua`:
 
-- Add/remove Spoons.
+### 添加/删除 Spoons.
 
-  Define `hspoon_list` to decide which Spoons (a distributing format of Hammerspoon module) to be loaded. There are 15 built-in Spoons, learn about them at [here](https://github.com/ashfinal/awesome-hammerspoon/wiki/The-built-in-Spoons).
+  在 `hspoon_list` 里决定加载哪些 Spoons (Hammerspoon 模块). 这里有 15 个 [内置 Spoons](https://github.com/ashfinal/awesome-hammerspoon/wiki/The-built-in-Spoons).
 
-  *There are more Spoons at [official spoon repository](http://www.hammerspoon.org/Spoons/) (you may need a little config before using them).*
+  *这里有更多的Spoons [official spoon repository](http://www.hammerspoon.org/Spoons/) (使用之前需要配置一下).*
 
-- Customize keybindings
+### 自定义键盘绑定 keybindings
 
   Please read `~/.hammerspoon/private/config.lua`for more details.
 
@@ -98,20 +110,44 @@ Finally press `cmd + ctrl + shift + r` to reload the configuration.
 
 </details>
 
-## Contribute
+## Hammerspoon可以代替的软件
+### 窗口管理
+<details>
+<summary>More details</summary>
+如果你更喜欢键盘控制窗口，那么Hammerspoon是你的菜，你还能免去安装magnet（Mac App Store，收费）、Spectacle（免费）等键盘调整窗口布局的app。
+如果你更喜欢触控板、鼠标调整窗口，你也可以使用Moom等软件。
+#### Magnet
+#### Spectacle
+#### Moom（Mac App Store，收费）
+</details>
+
+### 键盘绑定
+<details>
+<summary>More details</summary>
+#### Karabiner-Elements（部分功能可代替）
+#### Keyboard Maestro（收费）（部分功能可代替）
+</details>
+
+### 搜索
+<details>
+<summary>More details</summary>
+#### Alfred（收费）
+</details>
+
+## 贡献
 
 <details>
 <summary>More details</summary>
 
-- Improve existing Spoons
+### 改进现有 Spoons
 
-  A "Spoon" is just a directory, right-click on it -> "Show Package Contents".
+  一个 "Spoon" 就是一个词典, 右击它 -> "显示包内容".
 
-  Feel free to file issues or open PRs.
+  有问题请随时提交 issue 或 PR.
 
-- Create new Spoons
+### 创建新 Spoons
 
-  Some resources you may find helpful:
+  一些可能有用的资源:
 
   [Learn Lua in Y minutes](http://learnxinyminutes.com/docs/lua/)
 
@@ -123,17 +159,12 @@ Finally press `cmd + ctrl + shift + r` to reload the configuration.
 
 </details>
 
-## Thanks to
+## 致谢
 
-<details>
-<summary>More details</summary>
-[awesome-hammerspoon ashfinal](https://github.com/ashfinal/awesome-hammerspoon)
-[oh-my-hammerspoon zzamboni](https://github.com/zzamboni/oh-my-hammerspoon)
-
-[https://github.com/scottcs/dot_hammerspoon](https://github.com/scottcs/dot_hammerspoon)
-
-[https://github.com/dharmapoudel/hammerspoon-config](https://github.com/dharmapoudel/hammerspoon-config)
+[ashfinal awesome-hammerspoon](https://github.com/ashfinal/awesome-hammerspoon)
+[zzamboni oh-my-hammerspoon](https://github.com/zzamboni/oh-my-hammerspoon)
+[scottcs dot_hammerspoon](https://github.com/scottcs/dot_hammerspoon)
+[dharmapoudel hammerspoon-config](https://github.com/dharmapoudel/hammerspoon-config)
 
 [http://tracesof.net/uebersicht/](http://tracesof.net/uebersicht/)
 
-</details>

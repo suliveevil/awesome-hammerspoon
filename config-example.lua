@@ -21,7 +21,7 @@ hspoon_list = {
 hsapp_list = {
     {key = 'a', name = 'Atom'},
     {key = 'c', id = 'com.google.Chrome'},
-    {key = 'd', name = 'ShadowsocksX'},
+    {key = 'd', name = 'ShadowsocksX-NG-R8'},
     {key = 'e', name = 'Emacs'},
     {key = 'f', name = 'Finder'},
     {key = 'i', name = 'iTerm'},

@@ -1,12 +1,17 @@
 # awesome-hammerspoon configuration
 
-awesome-hammerspoon is my configuration for [Hammerspoon](http://www.hammerspoon.org/). It has highly modal-based, vim-style keybindings, provides some functionality like desktop widgets, window management, application launcher, instant search, aria2 frontend ... etc.
+awesome-hammerspoon is my configuration for [Hammerspoon](http://www.hammerspoon.org/). 
+Forked from https://github.com/ashfinal/awesome-hammerspoon
+It has highly modal-based, vim-style keybindings, provides some functionality like desktop widgets, window management, application launcher, instant search, aria2 frontend ... etc.
+
+[TOC]
+
 
 ## Get started
 
 1. Install [Hammerspoon](http://www.hammerspoon.org/) first.
 
-2. `git clone https://github.com/ashfinal/awesome-hammerspoon.git ~/.hammerspoon`
+2. `git clone https://github.com/suliveevil/awesome-hammerspoon.git ~/.hammerspoon`
 
 3. Reload the configutation.
 
@@ -122,6 +127,8 @@ Finally press `cmd + ctrl + shift + r` to reload the configuration.
 
 <details>
 <summary>More details</summary>
+[awesome-hammerspoon ashfinal](https://github.com/ashfinal/awesome-hammerspoon)
+
 
 [https://github.com/zzamboni/oh-my-hammerspoon](https://github.com/zzamboni/oh-my-hammerspoon)
 

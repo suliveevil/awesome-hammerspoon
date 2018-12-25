@@ -34,7 +34,7 @@ hsapp_list = {
     {key = 's', name = 'Safari'},
     {key = 't', name = 'Terminal'},
     {key = 'v', id = 'com.apple.ActivityMonitor'},
-    {key = 'w', name = 'Mweb'},
+    {key = 'w', name = 'MWeb'},
     {key = 'y', id = 'com.apple.systempreferences'},
 }
 

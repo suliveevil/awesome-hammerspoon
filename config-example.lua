@@ -30,7 +30,7 @@ hsapp_list = {
     {key = 'm', name = 'MacVim'},
     {key = 'o', name = 'LibreOffice'},
     {key = 'p', name = 'IINA'},
-    {key = 'r', name = 'VimR'},
+    {key = 'r', name = 'PyCharm'},
     {key = 's', name = 'Safari'},
     {key = 't', name = 'Terminal'},
     {key = 'v', id = 'com.apple.ActivityMonitor'},

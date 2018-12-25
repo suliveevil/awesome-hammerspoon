@@ -111,6 +111,13 @@ Finally press `cmd + ctrl + shift + r` to reload the configuration.
 </details>
 
 ## Hammerspoon可以代替的软件
+
+切记，不要把鸡蛋放到一个篮子里。
+
+Hammerspoon在我的MacBook Pro 13 mid 2018 + macOS Mojave 10.14.2上经常应用无响应。
+
+我暂时不打算以Hammerspoon为操作中心，目前的方案是以Alfred、Keyboard Maestro、Karabiner-Elements为中心，以BetterAndBetter、BetterTouchTool、LaunchBar为辅助。
+
 ### 窗口管理
 <details>
 <summary>More details</summary>

@@ -37,7 +37,7 @@ hs.loadSpoon("ModalMgr")
 if not hspoon_list then
     hspoon_list = {
         "AClock",
-        "BingDaily",
+        -- "BingDaily",
         "CircleClock",
         "ClipShow",
         "CountDown",
